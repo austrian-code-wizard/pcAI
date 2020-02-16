@@ -1,0 +1,2901 @@
+{
+  "objectIdFieldName" : "OBJECTID_1", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID_1", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPolyline", 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "fields" : [
+    {
+      "name" : "ROAD_NAME", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ROAD_NAME", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 254, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BEGIN_LOCATION", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BEGIN_LOCATION", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 254, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "END_LOCATION", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "END_LOCATION", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 254, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PCI_SCORE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "PCI_SCORE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "HOMECREST", 
+        "END_LOCATION" : "CLAREMORE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGNES ST.", 
+        "BEGIN_LOCATION" : "TWELFTH", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CLEARWATER", 
+        "BEGIN_LOCATION" : "SHEA PKWY.E.", 
+        "END_LOCATION" : "CORAL GABLES", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CLEARWATER", 
+        "BEGIN_LOCATION" : "CORAL GABLES", 
+        "END_LOCATION" : "SWANSEA DR", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CLEARWATER", 
+        "BEGIN_LOCATION" : "SWANSEA DR", 
+        "END_LOCATION" : "BRISBANE DR", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. FELICITY", 
+        "BEGIN_LOCATION" : "ST. PETER", 
+        "END_LOCATION" : "ST. PERPETUA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "SABINAS", 
+        "END_LOCATION" : "ELGIN", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CLIFTON", 
+        "BEGIN_LOCATION" : "BENYS", 
+        "END_LOCATION" : "D.E.", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TUSCARORA", 
+        "BEGIN_LOCATION" : "OUTPOST DR", 
+        "END_LOCATION" : "SADDLE LANE", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "CLAREMORE", 
+        "END_LOCATION" : "UNIVERSITY", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGNES ST.", 
+        "BEGIN_LOCATION" : "ALAMEDA S.", 
+        "END_LOCATION" : "TENTH", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "HAROLDSON", 
+        "END_LOCATION" : "TROY", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "GLENMORE", 
+        "END_LOCATION" : "HOMECREST", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "SABINAS", 
+        "END_LOCATION" : "ELGIN", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "LAMAR", 
+        "END_LOCATION" : "PORT AVE.", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. FELICITY", 
+        "BEGIN_LOCATION" : "ST.PERPETUA", 
+        "END_LOCATION" : "ST. AGATHA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "ELGIN", 
+        "END_LOCATION" : "GREENWOOD", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "GREENWOOD", 
+        "END_LOCATION" : "LAMAR", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "OSAGE", 
+        "END_LOCATION" : "ROSEWOOD", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "CARVER", 
+        "END_LOCATION" : "SABINAS", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WHATABURGER WAY", 
+        "BEGIN_LOCATION" : "MILDRED", 
+        "END_LOCATION" : "EVERHART RD.", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "UNIVERSITY", 
+        "END_LOCATION" : "PALMETTO", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "PALMETTO", 
+        "END_LOCATION" : "HAROLDSON", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGNES ST.", 
+        "BEGIN_LOCATION" : "STAPLES S.", 
+        "END_LOCATION" : "ALAMEDA S.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALAMEDA S", 
+        "BEGIN_LOCATION" : "TROY", 
+        "END_LOCATION" : "POENISCH", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGNES ST.", 
+        "BEGIN_LOCATION" : "TENTH", 
+        "END_LOCATION" : "TWELFTH", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "BONHAM", 
+        "END_LOCATION" : "WHARTON", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "REGINA", 
+        "BEGIN_LOCATION" : "CALGARY", 
+        "END_LOCATION" : "D.E.", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COAHUILLA", 
+        "BEGIN_LOCATION" : "GREENWOOD", 
+        "END_LOCATION" : "LOS ROBLES", 
+        "PCI_SCORE" : 62
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COAHUILLA", 
+        "BEGIN_LOCATION" : "GREENWOOD", 
+        "END_LOCATION" : "LOS ROBLES", 
+        "PCI_SCORE" : 62
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "WHARTON", 
+        "END_LOCATION" : "WHARTON", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE APACHE", 
+        "BEGIN_LOCATION" : "LAKE SUPERIOR", 
+        "END_LOCATION" : "LAKE TRAVIS", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE APACHE", 
+        "BEGIN_LOCATION" : "LAKE TRAVIS", 
+        "END_LOCATION" : "LAKE MICALA", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE APACHE", 
+        "BEGIN_LOCATION" : "LAKE SUPERIOR", 
+        "END_LOCATION" : "LAKE TRAVIS", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "WHARTON", 
+        "END_LOCATION" : "WHARTON", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "BOWIE", 
+        "END_LOCATION" : "BONHAM", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "WHARTON", 
+        "END_LOCATION" : "WHARTON", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "NAVARRO", 
+        "END_LOCATION" : "RICHTER", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "WHARTON", 
+        "END_LOCATION" : "ALEJANDRO", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "ALEJANDRO", 
+        "END_LOCATION" : "NAVARRO", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "BOWIE", 
+        "END_LOCATION" : "BONHAM", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOKOL", 
+        "BEGIN_LOCATION" : "BONHAM", 
+        "END_LOCATION" : "WHARTON", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "VILLA MARIA IS.", 
+        "BEGIN_LOCATION" : "PLAYA DEL RAY", 
+        "END_LOCATION" : "AVE.SAN NICO", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "VILLA MARIA IS.", 
+        "BEGIN_LOCATION" : "AVE.SAN NICO", 
+        "END_LOCATION" : "SAND DOLLAR AVE", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMSPORT", 
+        "BEGIN_LOCATION" : "WHITECAP", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMSPORT", 
+        "BEGIN_LOCATION" : "WHITECAP", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGRITO", 
+        "BEGIN_LOCATION" : "BALDWIN", 
+        "END_LOCATION" : "SABINAS", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AGRITO", 
+        "BEGIN_LOCATION" : "SABINAS", 
+        "END_LOCATION" : "ELGIN", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AQUARIUS", 
+        "BEGIN_LOCATION" : "TOPSAIL", 
+        "END_LOCATION" : "MIZZEN ST", 
+        "PCI_SCORE" : 71
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AQUARIUS", 
+        "BEGIN_LOCATION" : "MIZZEN ST", 
+        "END_LOCATION" : "HALYARD", 
+        "PCI_SCORE" : 86
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AYERS ST.", 
+        "BEGIN_LOCATION" : "FANNIN", 
+        "END_LOCATION" : "SOUTHGATE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AYERS ST.", 
+        "BEGIN_LOCATION" : "FANNIN", 
+        "END_LOCATION" : "SOUTHGATE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BLACKBEARD", 
+        "BEGIN_LOCATION" : "BARATARIA", 
+        "END_LOCATION" : "WHITE CAP", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CAPRICE", 
+        "BEGIN_LOCATION" : "NEWPORT", 
+        "END_LOCATION" : "CAPRICE", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CAPRICE", 
+        "BEGIN_LOCATION" : "CAPRICE", 
+        "END_LOCATION" : "SANTANA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CAPRICE", 
+        "BEGIN_LOCATION" : "CAPRICE", 
+        "END_LOCATION" : "SANTANA", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CUTTYSARK", 
+        "BEGIN_LOCATION" : "ENCANTADA", 
+        "END_LOCATION" : "VINCENT DR", 
+        "PCI_SCORE" : 78
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "DENVER", 
+        "BEGIN_LOCATION" : "DEAD END W", 
+        "END_LOCATION" : "DODDRIDGE", 
+        "PCI_SCORE" : 57
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GRASS CAY", 
+        "BEGIN_LOCATION" : "PORTS O CALL", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HALYARD", 
+        "BEGIN_LOCATION" : "AQUARIUS", 
+        "END_LOCATION" : "DEAD END W", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JESTER", 
+        "BEGIN_LOCATION" : "AVIATION", 
+        "END_LOCATION" : "ANCHOR", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JESTER", 
+        "BEGIN_LOCATION" : "AVIATION", 
+        "END_LOCATION" : "ANCHOR", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "WAINWRIGHT", 
+        "END_LOCATION" : "MONTGOMERY", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SASKATOON DR", 
+        "BEGIN_LOCATION" : "SASKATCHEWAN DR", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FIJI DR", 
+        "BEGIN_LOCATION" : "TRUK DR", 
+        "END_LOCATION" : "DEAD END N", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TRUK DR", 
+        "BEGIN_LOCATION" : "LORINE", 
+        "END_LOCATION" : "SANDS", 
+        "PCI_SCORE" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TRUK DR", 
+        "BEGIN_LOCATION" : "FIJI DR", 
+        "END_LOCATION" : "LORINE", 
+        "PCI_SCORE" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BONITA", 
+        "BEGIN_LOCATION" : "ISABEL", 
+        "END_LOCATION" : "FIG", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "TARLTON", 
+        "END_LOCATION" : "WAINWRIGHT", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "GUADALUPE", 
+        "END_LOCATION" : "TARLTON", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CHINA BERRY", 
+        "BEGIN_LOCATION" : "BLUE WATER", 
+        "END_LOCATION" : "HILL CREST", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BONITA", 
+        "BEGIN_LOCATION" : "AYERS ST.", 
+        "END_LOCATION" : "ISABEL", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CREST PEBBLE", 
+        "BEGIN_LOCATION" : "HILL CREST/CREST WATER", 
+        "END_LOCATION" : "CREST VALLEY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CAPERNAUM CT", 
+        "BEGIN_LOCATION" : "BARNARD DR", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEOPARD N", 
+        "BEGIN_LOCATION" : "LANCASTER", 
+        "END_LOCATION" : "BURKE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LYNN ST.", 
+        "BEGIN_LOCATION" : "WALDRON RD.", 
+        "END_LOCATION" : "LOMBARDY", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAC ARTHUR", 
+        "BEGIN_LOCATION" : "PRESA", 
+        "END_LOCATION" : "BOLIVAR", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAC ARTHUR", 
+        "BEGIN_LOCATION" : "BELTON", 
+        "END_LOCATION" : "BURNETT", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAC ARTHUR", 
+        "BEGIN_LOCATION" : "BELTON", 
+        "END_LOCATION" : "BURNETT", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAC ARTHUR", 
+        "BEGIN_LOCATION" : "BOLIVAR", 
+        "END_LOCATION" : "BELTON", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MINGO CAY", 
+        "BEGIN_LOCATION" : "MONT PELEE", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "NAPLES", 
+        "BEGIN_LOCATION" : "STAPLES S.", 
+        "END_LOCATION" : "FIFTEENTH", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "NAPLES", 
+        "BEGIN_LOCATION" : "FIFTEENTH", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "MONTGOMERY", 
+        "END_LOCATION" : "DUNBAR", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "DUNBAR", 
+        "END_LOCATION" : "HALSEY", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "NOGALES", 
+        "END_LOCATION" : "GUADALUPE", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "SOLEDAD", 
+        "END_LOCATION" : "NOGALES", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "PRESA", 
+        "END_LOCATION" : "SOLEDAD", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "HALSEY", 
+        "END_LOCATION" : "NIMITZ", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "POLARIS", 
+        "END_LOCATION" : "PLEIADES", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TRUK DR", 
+        "BEGIN_LOCATION" : "SANDS", 
+        "END_LOCATION" : "TINIAN DR", 
+        "PCI_SCORE" : 85
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "ANTARES", 
+        "END_LOCATION" : "POLARIS", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TRUK DR", 
+        "BEGIN_LOCATION" : "TONGA DR", 
+        "END_LOCATION" : "FIJI DR", 
+        "PCI_SCORE" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. BERNADINE", 
+        "BEGIN_LOCATION" : "ST. JOSEPH", 
+        "END_LOCATION" : "D.E.", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "VEGA", 
+        "END_LOCATION" : "CARIBBEAN", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "ORION", 
+        "END_LOCATION" : "ANTARES", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "VEGA", 
+        "END_LOCATION" : "CARIBBEAN", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "VEGA", 
+        "END_LOCATION" : "CARIBBEAN", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "VEGA", 
+        "END_LOCATION" : "CARIBBEAN", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "MEDITERRANEAN", 
+        "END_LOCATION" : "ORION", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JAMAICA", 
+        "BEGIN_LOCATION" : "PLEIADES", 
+        "END_LOCATION" : "VEGA", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EISENHOWER", 
+        "BEGIN_LOCATION" : "BOLIVAR", 
+        "END_LOCATION" : "PRESA", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ELBA", 
+        "BEGIN_LOCATION" : "GRAND JUNCTION", 
+        "END_LOCATION" : "DEAD END (E)", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GRENADE ST", 
+        "BEGIN_LOCATION" : "STRASBOURG DR", 
+        "END_LOCATION" : "WATERFORD DR", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GRENADE ST", 
+        "BEGIN_LOCATION" : "WATERFORD DR", 
+        "END_LOCATION" : "BEAUVAIS DR", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GULFBREEZE", 
+        "BEGIN_LOCATION" : "HAYES", 
+        "END_LOCATION" : "NEAL", 
+        "PCI_SCORE" : 79
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GULFBREEZE", 
+        "BEGIN_LOCATION" : "BEACH", 
+        "END_LOCATION" : "HAYES", 
+        "PCI_SCORE" : 79
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GULFBREEZE", 
+        "BEGIN_LOCATION" : "REEF", 
+        "END_LOCATION" : "BEACH", 
+        "PCI_SCORE" : 79
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE SUPERIOR", 
+        "BEGIN_LOCATION" : "VANERN", 
+        "END_LOCATION" : "LAKE TRAVIS", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE SUPERIOR", 
+        "BEGIN_LOCATION" : "LAKE APACHE", 
+        "END_LOCATION" : "VANERN", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE SUPERIOR", 
+        "BEGIN_LOCATION" : "LAKE TRAVIS", 
+        "END_LOCATION" : "LAKE MICALA", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "HIGHLAND AVE.", 
+        "END_LOCATION" : "PORT AVE.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "RIVER CREST", 
+        "END_LOCATION" : "WHITE BIRD", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "SEAHAWK", 
+        "END_LOCATION" : "ALLEY", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ACAPULCO", 
+        "BEGIN_LOCATION" : "BUENOS AIRES", 
+        "END_LOCATION" : "LOS ROBLES", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "CHRISTIE", 
+        "END_LOCATION" : "RAMSEY", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "BRENTWOOD", 
+        "END_LOCATION" : "CAMBRIDGE", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "SPRING", 
+        "END_LOCATION" : "BRENTWOOD", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "CAMBRIDGE", 
+        "END_LOCATION" : "DEVON", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "RAMSEY", 
+        "END_LOCATION" : "SPRING", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "DEVON", 
+        "END_LOCATION" : "GREEN GROVE", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ALEXANDER", 
+        "BEGIN_LOCATION" : "NAPLES", 
+        "END_LOCATION" : "CHRISTIE", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "CREST WATER", 
+        "END_LOCATION" : "CHINA BERRY", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "CHINA BERRY", 
+        "END_LOCATION" : "ALLEY", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "ALLEY", 
+        "END_LOCATION" : "RIVER CREST", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HILL CREST", 
+        "BEGIN_LOCATION" : "ALLEY", 
+        "END_LOCATION" : "SEAHAWK", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BARRERA", 
+        "BEGIN_LOCATION" : "VILLAREAL", 
+        "END_LOCATION" : "WEST POINT", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BARRERA", 
+        "BEGIN_LOCATION" : "VILLAREAL", 
+        "END_LOCATION" : "WEST POINT", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HUDSON", 
+        "BEGIN_LOCATION" : "VITEMB", 
+        "END_LOCATION" : "VESTAL", 
+        "PCI_SCORE" : 71
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BARRERA", 
+        "BEGIN_LOCATION" : "WEST POINT", 
+        "END_LOCATION" : "LINDA VISTA", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BURKE", 
+        "BEGIN_LOCATION" : "LEOPARD ST.", 
+        "END_LOCATION" : "DEAD END N.", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HUDSON", 
+        "BEGIN_LOCATION" : "PRESCOTT", 
+        "END_LOCATION" : "VITEMB", 
+        "PCI_SCORE" : 71
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "TENTH", 
+        "END_LOCATION" : "ALAMEDA N.", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CRAIG", 
+        "BEGIN_LOCATION" : "ALAMEDA", 
+        "END_LOCATION" : "TENTH ST", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "ELEVENTH", 
+        "END_LOCATION" : "TENTH", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "TWELFTH", 
+        "END_LOCATION" : "ELEVENTH", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "CROSSTOWN EXPWY", 
+        "END_LOCATION" : "FIFTEENTH", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CRAIG", 
+        "BEGIN_LOCATION" : "STAPLES", 
+        "END_LOCATION" : "ALAMEDA", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CRAIG", 
+        "BEGIN_LOCATION" : "SEVENTH", 
+        "END_LOCATION" : "STAPLES", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CRAIG", 
+        "BEGIN_LOCATION" : "SEVENTH", 
+        "END_LOCATION" : "STAPLES", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CUIPER", 
+        "BEGIN_LOCATION" : "BRENTWOOD", 
+        "END_LOCATION" : "SPRING", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "JULIA LN", 
+        "BEGIN_LOCATION" : "LIPES", 
+        "END_LOCATION" : "DEAD END (N)", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE SUPERIOR", 
+        "BEGIN_LOCATION" : "LAKE GENEVA", 
+        "END_LOCATION" : "PONTCHARTRAIN DR", 
+        "PCI_SCORE" : 100
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "FIFTEENTH", 
+        "END_LOCATION" : "FOURTEENTH", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CUIPER", 
+        "BEGIN_LOCATION" : "SPRING", 
+        "END_LOCATION" : "RAMSEY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CUIPER", 
+        "BEGIN_LOCATION" : "RAMSEY", 
+        "END_LOCATION" : "CHRISTIE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "BROWNLEE", 
+        "END_LOCATION" : "TWELFTH", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CUIPER", 
+        "BEGIN_LOCATION" : "CHRISTIE", 
+        "END_LOCATION" : "NAPLES", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "DOCKSIDE", 
+        "BEGIN_LOCATION" : "EXCHEQUER DR", 
+        "END_LOCATION" : "DEAD END S.", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ELK ST.", 
+        "BEGIN_LOCATION" : "HIGHWAY 9", 
+        "END_LOCATION" : "AUTHER", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KALER", 
+        "BEGIN_LOCATION" : "UP RIVER RD.", 
+        "END_LOCATION" : "RACKLEY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MORRIS", 
+        "BEGIN_LOCATION" : "FOURTEENTH", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KALER", 
+        "BEGIN_LOCATION" : "RACKLEY", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "NOGALES", 
+        "BEGIN_LOCATION" : "SARITA", 
+        "END_LOCATION" : "NIAGARA", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "DOLORES", 
+        "END_LOCATION" : "DUNCAN", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "ELESA", 
+        "END_LOCATION" : "FRANCESCA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEOPARD N", 
+        "BEGIN_LOCATION" : "ROLLING ACRES", 
+        "END_LOCATION" : "HARRINGTON E", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "FRANCESCA", 
+        "END_LOCATION" : "DOLORES", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "ELEANOR", 
+        "END_LOCATION" : "ELESA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "SUNRISE", 
+        "END_LOCATION" : "HARMON", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEOPARD N", 
+        "BEGIN_LOCATION" : "HARRINGTON E.", 
+        "END_LOCATION" : "IRMA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "OSAGE", 
+        "END_LOCATION" : "ELEANOR", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "HARMON", 
+        "END_LOCATION" : "HIGHLAND", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RUTH", 
+        "BEGIN_LOCATION" : "DUNCAN", 
+        "END_LOCATION" : "SUNRISE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TAHITI", 
+        "BEGIN_LOCATION" : "MEDITERRANEAN", 
+        "END_LOCATION" : "DEAD END N", 
+        "PCI_SCORE" : 57
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARLTON", 
+        "BEGIN_LOCATION" : "MAC ARTHUR", 
+        "END_LOCATION" : "EISENHOWER", 
+        "PCI_SCORE" : 78
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEOPARD S", 
+        "BEGIN_LOCATION" : "MC CAIN", 
+        "END_LOCATION" : "ELK", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MC KINZIE RD", 
+        "BEGIN_LOCATION" : "CASTLE VALLEY", 
+        "END_LOCATION" : "CASTLE RIDGE", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MC KINZIE RD", 
+        "BEGIN_LOCATION" : "GRANITE PEAK", 
+        "END_LOCATION" : "SESSIONS RD.", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MC KINZIE RD", 
+        "BEGIN_LOCATION" : "CASTLE RIDGE", 
+        "END_LOCATION" : "DEAD END W.", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARLTON", 
+        "BEGIN_LOCATION" : "EISENHOWER", 
+        "END_LOCATION" : "GREENWOOD", 
+        "PCI_SCORE" : 78
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARLTON", 
+        "BEGIN_LOCATION" : "MAC ARTHUR", 
+        "END_LOCATION" : "EISENHOWER", 
+        "PCI_SCORE" : 78
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWELFTH", 
+        "BEGIN_LOCATION" : "LAREDO", 
+        "END_LOCATION" : "AGNES", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWELFTH", 
+        "BEGIN_LOCATION" : "AGNES", 
+        "END_LOCATION" : "MARGUERITE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AVE SAN NICO", 
+        "BEGIN_LOCATION" : "VERDEMAR", 
+        "END_LOCATION" : "VILLA MARIA IS.", 
+        "PCI_SCORE" : 81
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AVE SAN NICO", 
+        "BEGIN_LOCATION" : "VERDEMAR", 
+        "END_LOCATION" : "VILLA MARIA IS.", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BEACH BREAK DR", 
+        "BEGIN_LOCATION" : "BACKSIDE DR", 
+        "END_LOCATION" : "DEAD END (S)", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BEACH BREAK DR", 
+        "BEGIN_LOCATION" : "DEAD END (N)", 
+        "END_LOCATION" : "FRONTSIDE DR", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BEACH BREAK DR", 
+        "BEGIN_LOCATION" : "FRONTSIDE DR", 
+        "END_LOCATION" : "BACKSIDE DR", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BIG CYPRESS BYU", 
+        "BEGIN_LOCATION" : "DRY CREEK", 
+        "END_LOCATION" : "BEDROCK", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BIG CYPRESS", 
+        "BEGIN_LOCATION" : "DRY CREEK", 
+        "END_LOCATION" : "BEDROCK", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AVE SAN NICO", 
+        "BEGIN_LOCATION" : "VERDEMAR", 
+        "END_LOCATION" : "VILLA MARIA IS.", 
+        "PCI_SCORE" : 81
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE SUPERIOR", 
+        "BEGIN_LOCATION" : "LAKE MICALA", 
+        "END_LOCATION" : "LAKE WINDERMERE", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BETA LANE", 
+        "BEGIN_LOCATION" : "PURDUE RD", 
+        "END_LOCATION" : "ZUZA WAY", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FRONTSIDE DR", 
+        "BEGIN_LOCATION" : "BACKSIDE DR", 
+        "END_LOCATION" : "BEACH BREAK DR", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GRAND LAKE", 
+        "BEGIN_LOCATION" : "BURKHART W.", 
+        "END_LOCATION" : "BURKHART E.", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORTO VILLAGEO DR", 
+        "BEGIN_LOCATION" : "VILLA PAMPLONA", 
+        "END_LOCATION" : "PORTO FINO CT", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORTO VILLAGEO DR", 
+        "BEGIN_LOCATION" : "PORTO FINO CT", 
+        "END_LOCATION" : "VILLA CASTELON DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORTO VILLAGEO DR", 
+        "BEGIN_LOCATION" : "SH-361", 
+        "END_LOCATION" : "VILLA SORIA DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORTO VILLAGEO DR", 
+        "BEGIN_LOCATION" : "VILLA SORIA DR", 
+        "END_LOCATION" : "VILLA PAMPLONA DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. AGATHA", 
+        "BEGIN_LOCATION" : "ST.FELICITY", 
+        "END_LOCATION" : "D.E.", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BRIGHTON", 
+        "BEGIN_LOCATION" : "ORLEANS", 
+        "END_LOCATION" : "VERSAILLES", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWELFTH", 
+        "BEGIN_LOCATION" : "MORRIS", 
+        "END_LOCATION" : "COLEMAN", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWELFTH", 
+        "BEGIN_LOCATION" : "MARY", 
+        "END_LOCATION" : "MORRIS", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWELFTH", 
+        "BEGIN_LOCATION" : "MARGUERITE", 
+        "END_LOCATION" : "MARY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "LINDA VISTA", 
+        "END_LOCATION" : "NATIONAL", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "ANITA", 
+        "END_LOCATION" : "DOMINGO", 
+        "PCI_SCORE" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "WEST POINT", 
+        "END_LOCATION" : "ANITA", 
+        "PCI_SCORE" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "AMBASSADOR", 
+        "END_LOCATION" : "LINDA VISTA", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "PADRE ISLAND DR", 
+        "END_LOCATION" : "AMBASSADOR", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "DOMINGO", 
+        "END_LOCATION" : "RENE", 
+        "PCI_SCORE" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "RENE", 
+        "END_LOCATION" : "VILLAREAL", 
+        "PCI_SCORE" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "VILLAREAL", 
+        "END_LOCATION" : "CLOVER CIR.", 
+        "PCI_SCORE" : 39
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEMING", 
+        "BEGIN_LOCATION" : "OCEAN DR.", 
+        "END_LOCATION" : "DENVER", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WIND SWEPT DR", 
+        "BEGIN_LOCATION" : "LARCADE", 
+        "END_LOCATION" : "GLENMONT", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARAFAYA", 
+        "BEGIN_LOCATION" : "LEMANS", 
+        "END_LOCATION" : "LOVAIN", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARAFAYA", 
+        "BEGIN_LOCATION" : "LEMANS", 
+        "END_LOCATION" : "LOVAIN", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "SHAMROCK", 
+        "END_LOCATION" : "HUGO", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "LUCILLE", 
+        "END_LOCATION" : "NORVEL", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "ALAMEDA N.", 
+        "END_LOCATION" : "TENTH ST.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TEXAN TRAIL", 
+        "BEGIN_LOCATION" : "ALAMEDA S", 
+        "END_LOCATION" : "TOPEKA", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TEXAN TRAIL", 
+        "BEGIN_LOCATION" : "AUSTIN", 
+        "END_LOCATION" : "LAWNVIEW", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "TENTH ST.", 
+        "END_LOCATION" : "TWELFTH ST.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "TWELFTH ST.", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "MC ARDLE", 
+        "END_LOCATION" : "BELMEADE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "MC ARDLE", 
+        "END_LOCATION" : "BELMEADE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "BELMEADE", 
+        "END_LOCATION" : "KIMBROUGH", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "RILEY", 
+        "END_LOCATION" : "LUCILLE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "HUGO", 
+        "END_LOCATION" : "GOLLIHAR", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WINDMERE", 
+        "BEGIN_LOCATION" : "ORLEANS", 
+        "END_LOCATION" : "PURDUE", 
+        "PCI_SCORE" : 57
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TEXAN TRAIL", 
+        "BEGIN_LOCATION" : "TOPEKA", 
+        "END_LOCATION" : "AUSTIN", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAKE ATHENS", 
+        "BEGIN_LOCATION" : "PERFECTION LAKE AV", 
+        "END_LOCATION" : "SILVER LAKE CT", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "NORVEL", 
+        "END_LOCATION" : "SHAMROCK", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "KIMBROUGH", 
+        "END_LOCATION" : "RILEY", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "YORKTOWN BLVD.", 
+        "BEGIN_LOCATION" : "AIRLINE", 
+        "END_LOCATION" : "RANCHO VISTA", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "YORKTOWN BLVD.", 
+        "BEGIN_LOCATION" : "AIRLINE", 
+        "END_LOCATION" : "RANCHO VISTA", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "GLENDALE", 
+        "END_LOCATION" : "NAPLES", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "AYERS", 
+        "END_LOCATION" : "GLENDALE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BALDWIN", 
+        "BEGIN_LOCATION" : "NAPLES", 
+        "END_LOCATION" : "STAPLES", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMS DR", 
+        "BEGIN_LOCATION" : "BURTON", 
+        "END_LOCATION" : "STAPLES S.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMS DR", 
+        "BEGIN_LOCATION" : "BETTY JEAN", 
+        "END_LOCATION" : "BURTON", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMS DR", 
+        "BEGIN_LOCATION" : "BETTY JEAN", 
+        "END_LOCATION" : "BURTON", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILLIAMS DR", 
+        "BEGIN_LOCATION" : "BURTON", 
+        "END_LOCATION" : "STAPLES S.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PATRIOT DR", 
+        "BEGIN_LOCATION" : "SANDERS DR", 
+        "END_LOCATION" : "VALOR DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TEXAN TRAIL", 
+        "BEGIN_LOCATION" : "LAWNVIEW", 
+        "END_LOCATION" : "SANTA FE", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BUFORD", 
+        "BEGIN_LOCATION" : "FOURTEENTH", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PATRIOT DR", 
+        "BEGIN_LOCATION" : "VALOR DR", 
+        "END_LOCATION" : "SANDERS DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "STAPLES N.", 
+        "END_LOCATION" : "ALAMEDA N.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "BROWNLEE", 
+        "END_LOCATION" : "CROSSTOWN EXPWY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "CARRIZO ST.", 
+        "END_LOCATION" : "KING ST.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LAREDO ST.", 
+        "BEGIN_LOCATION" : "KING ST.", 
+        "END_LOCATION" : "STAPLES N.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "OCEAN DR.", 
+        "END_LOCATION" : "SECOND ST.", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "SANTA FE", 
+        "END_LOCATION" : "LAWNVIEW", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "LAWNVIEW", 
+        "END_LOCATION" : "ALAMEDA", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "ALAMEDA", 
+        "END_LOCATION" : "BROWNLEE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "SECOND ST.", 
+        "END_LOCATION" : "THIRD ST.", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLE", 
+        "BEGIN_LOCATION" : "THIRD ST.", 
+        "END_LOCATION" : "SANTA FE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "COLUMBIA", 
+        "BEGIN_LOCATION" : "NATIONAL", 
+        "END_LOCATION" : "WEST POINT", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "STAPLES S", 
+        "BEGIN_LOCATION" : "SEVENTEENTH", 
+        "END_LOCATION" : "NAPLES", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SWANTNER", 
+        "BEGIN_LOCATION" : "INDIANA", 
+        "END_LOCATION" : "OHIO", 
+        "PCI_SCORE" : 50
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SWANTNER", 
+        "BEGIN_LOCATION" : "LOUISIANA", 
+        "END_LOCATION" : "LOUISIANA", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEOPARD N", 
+        "BEGIN_LOCATION" : "IRMA", 
+        "END_LOCATION" : "CHARLES", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SWANTNER", 
+        "BEGIN_LOCATION" : "OHIO", 
+        "END_LOCATION" : "LOUISIANA", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CORTEZ", 
+        "BEGIN_LOCATION" : "BALDWIN", 
+        "END_LOCATION" : "CARMEN", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CORTEZ", 
+        "BEGIN_LOCATION" : "PINE", 
+        "END_LOCATION" : "GALVAN", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CORTEZ", 
+        "BEGIN_LOCATION" : "GALVAN", 
+        "END_LOCATION" : "BALDWIN", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PAUL JONES", 
+        "BEGIN_LOCATION" : "PADRE ISLAND DR", 
+        "END_LOCATION" : "BAYLARK", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PIRATA", 
+        "BEGIN_LOCATION" : "LA BLANQUILLA", 
+        "END_LOCATION" : "COQUINA BAY", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PRAIRIE DR.", 
+        "BEGIN_LOCATION" : "LAKE LIVINGSTON", 
+        "END_LOCATION" : "LAKE NOCONA", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PRAIRIE DR", 
+        "BEGIN_LOCATION" : "LAKE MEDINA", 
+        "END_LOCATION" : "LAKE LIVINGSTON", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SAND DOLLAR AVE", 
+        "BEGIN_LOCATION" : "VILLA MARIA ISABEL", 
+        "END_LOCATION" : "COUNTY PARK RD (N)", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SAND DOLLAR AVE", 
+        "BEGIN_LOCATION" : "VERDEMAR", 
+        "END_LOCATION" : "VILLA MARIA ISABEL", 
+        "PCI_SCORE" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SAND DOLLAR AVE", 
+        "BEGIN_LOCATION" : "VERDEMAR", 
+        "END_LOCATION" : "VILLA MARIA ISABEL", 
+        "PCI_SCORE" : 82
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SCHNAUZER", 
+        "BEGIN_LOCATION" : "SIBERIAN", 
+        "END_LOCATION" : "HULL", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SCHNAUZER", 
+        "BEGIN_LOCATION" : "BAY", 
+        "END_LOCATION" : "SIBERIAN", 
+        "PCI_SCORE" : 69
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SEAHAWK", 
+        "BEGIN_LOCATION" : "BLUE WATER", 
+        "END_LOCATION" : "HILL CREST", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SETH ST", 
+        "BEGIN_LOCATION" : "JEREMIAH CT", 
+        "END_LOCATION" : "ISAIAH CT", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SETH ST", 
+        "BEGIN_LOCATION" : "EZEKIEL CT", 
+        "END_LOCATION" : "JEREMIAH CT", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SETH ST", 
+        "BEGIN_LOCATION" : "HOSEA CT", 
+        "END_LOCATION" : "EZEKIEL CT", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. LUCY", 
+        "BEGIN_LOCATION" : "ST. JOSEPH", 
+        "END_LOCATION" : "ST. FELICITY", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "ST. LUCY", 
+        "BEGIN_LOCATION" : "ST. FELICITY", 
+        "END_LOCATION" : "D.E.", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "STROM RD", 
+        "BEGIN_LOCATION" : "RYBA DR", 
+        "END_LOCATION" : "KAZIMIR DR", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TANCAHUA N", 
+        "BEGIN_LOCATION" : "HUGHES", 
+        "END_LOCATION" : "BREWSTER", 
+        "PCI_SCORE" : 65
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "VERDEMAR", 
+        "BEGIN_LOCATION" : "SAND DOLLAR AVE", 
+        "END_LOCATION" : "AVE SAN NICO", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "VERDEMAR", 
+        "BEGIN_LOCATION" : "SAND DOLLAR AVE", 
+        "END_LOCATION" : "AVE SAN NICO", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "VERDEMAR", 
+        "BEGIN_LOCATION" : "PARK ROAD 22", 
+        "END_LOCATION" : "SAND DOLLAR AVE", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "YARDARM", 
+        "BEGIN_LOCATION" : "WHITE CAP BLVD.", 
+        "END_LOCATION" : "CAPTAIN KIDD", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "YORKTOWN BLVD.", 
+        "BEGIN_LOCATION" : "FLOUR BLUFF DR", 
+        "END_LOCATION" : "WALDRON RD", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "YORKTOWN BLVD.", 
+        "BEGIN_LOCATION" : "FLOUR BLUFF DR", 
+        "END_LOCATION" : "WALDRON RD", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KAIPO DR", 
+        "BEGIN_LOCATION" : "HELD DR", 
+        "END_LOCATION" : "WALDRON RD", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "CORTEZ", 
+        "BEGIN_LOCATION" : "CARMEN", 
+        "END_LOCATION" : "NAVAJO", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FISK", 
+        "BEGIN_LOCATION" : "WINNEBAGO", 
+        "END_LOCATION" : "XAVIER", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FOURTEENTH", 
+        "BEGIN_LOCATION" : "HANCOCK", 
+        "END_LOCATION" : "BUFORD", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FOURTEENTH", 
+        "BEGIN_LOCATION" : "ELIZABETH", 
+        "END_LOCATION" : "MC KENZIE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "FOURTEENTH", 
+        "BEGIN_LOCATION" : "MC KENZIE", 
+        "END_LOCATION" : "AYERS", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "IMPERIAL HARBOR", 
+        "BEGIN_LOCATION" : "W.CAUSEWAY", 
+        "END_LOCATION" : "DEAD END W.", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LOU ST.", 
+        "BEGIN_LOCATION" : "OSAGE", 
+        "END_LOCATION" : "MOHAWK", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LOU ST.", 
+        "BEGIN_LOCATION" : "HIAWATHA", 
+        "END_LOCATION" : "SHAWNEE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MESQUITE", 
+        "BEGIN_LOCATION" : "BELDEN", 
+        "END_LOCATION" : "I.H.37 (W.B.)", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MESQUITE", 
+        "BEGIN_LOCATION" : "POWER", 
+        "END_LOCATION" : "BELDEN", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MESQUITE", 
+        "BEGIN_LOCATION" : "MANN", 
+        "END_LOCATION" : "TWIGG", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MESQUITE", 
+        "BEGIN_LOCATION" : "I.H.37(E.B.)", 
+        "END_LOCATION" : "MANN", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "NINETEENTH", 
+        "BEGIN_LOCATION" : "BUFORD", 
+        "END_LOCATION" : "HANCOCK", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PEOPLES", 
+        "BEGIN_LOCATION" : "MESQUITE", 
+        "END_LOCATION" : "LOWER BROADWAY", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWENTY THIRD", 
+        "BEGIN_LOCATION" : "MARY", 
+        "END_LOCATION" : "MORRIS", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWENTY THIRD", 
+        "BEGIN_LOCATION" : "MORRIS", 
+        "END_LOCATION" : "COLEMAN", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWENTY THIRD", 
+        "BEGIN_LOCATION" : "RUTH", 
+        "END_LOCATION" : "BUFORD", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TWENTY THIRD", 
+        "BEGIN_LOCATION" : "RUTH", 
+        "END_LOCATION" : "BUFORD", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILSON ST", 
+        "BEGIN_LOCATION" : "DEAD END E", 
+        "END_LOCATION" : "IVY DR", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WILSON ST", 
+        "BEGIN_LOCATION" : "IVY DR", 
+        "END_LOCATION" : "DEAD END W", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AMAZON", 
+        "BEGIN_LOCATION" : "YUKON", 
+        "END_LOCATION" : "RHINE", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AMAZON", 
+        "BEGIN_LOCATION" : "YUKON", 
+        "END_LOCATION" : "RHINE", 
+        "PCI_SCORE" : 74
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "ALDEN", 
+        "END_LOCATION" : "BELMEADE", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "STAPLES S", 
+        "BEGIN_LOCATION" : "BALDWIN", 
+        "END_LOCATION" : "SEVENTEENTH", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "AIRLINE", 
+        "BEGIN_LOCATION" : "LUM", 
+        "END_LOCATION" : "ALDEN", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "BUFORD", 
+        "BEGIN_LOCATION" : "ELEVENTH", 
+        "END_LOCATION" : "TENTH ST.", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EVERHART RD.", 
+        "BEGIN_LOCATION" : "JUNIOR TERRACE", 
+        "END_LOCATION" : "ALAMEDA S.", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "GRAND LAKE", 
+        "BEGIN_LOCATION" : "BURKHART E.", 
+        "END_LOCATION" : "DIJON LAKE", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HOFFMAN", 
+        "BEGIN_LOCATION" : "ALAMEDA S.", 
+        "END_LOCATION" : "REID DR.", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HOFFMAN", 
+        "BEGIN_LOCATION" : "REID DR.", 
+        "END_LOCATION" : "SWANTNER", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAHAN", 
+        "BEGIN_LOCATION" : "KOSTORYZ", 
+        "END_LOCATION" : "HAKEL", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAHAN", 
+        "BEGIN_LOCATION" : "COSNER", 
+        "END_LOCATION" : "KIRKWOOD", 
+        "PCI_SCORE" : 77
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MARZBACHER", 
+        "BEGIN_LOCATION" : "VALERIE", 
+        "END_LOCATION" : "JESTER", 
+        "PCI_SCORE" : 72
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "OSAGE", 
+        "BEGIN_LOCATION" : "HIGHLAND AVE", 
+        "END_LOCATION" : "NAVAJO", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "OSAGE", 
+        "BEGIN_LOCATION" : "MORGAN", 
+        "END_LOCATION" : "HIGHLAND AVE.", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "OSAGE", 
+        "BEGIN_LOCATION" : "NAVAJO", 
+        "END_LOCATION" : "CHIPPEWA", 
+        "PCI_SCORE" : 68
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "OUTREAU DR.", 
+        "BEGIN_LOCATION" : "LEMANS", 
+        "END_LOCATION" : "SYLLING", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "OUTREAU DR.", 
+        "BEGIN_LOCATION" : "SYLLING", 
+        "END_LOCATION" : "MONTDIDIER", 
+        "PCI_SCORE" : 76
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORT S", 
+        "BEGIN_LOCATION" : "TARLTON", 
+        "END_LOCATION" : "NIAGARA", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORT S", 
+        "BEGIN_LOCATION" : "SARITA", 
+        "END_LOCATION" : "NIMITZ", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORT S", 
+        "BEGIN_LOCATION" : "NIAGARA", 
+        "END_LOCATION" : "SARITA", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORT S", 
+        "BEGIN_LOCATION" : "NIMITZ", 
+        "END_LOCATION" : "GOLIAD", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PORT S", 
+        "BEGIN_LOCATION" : "GOLIAD", 
+        "END_LOCATION" : "SAN JACINTO", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOUTH FORK", 
+        "BEGIN_LOCATION" : "THE MANSIONS", 
+        "END_LOCATION" : "MARBLE FALLS", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "SOUTH FORK", 
+        "BEGIN_LOCATION" : "THE MANSIONS", 
+        "END_LOCATION" : "MARBLE FALLS", 
+        "PCI_SCORE" : 73
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODCREST", 
+        "BEGIN_LOCATION" : "DON PATRICIO", 
+        "END_LOCATION" : "DIVISION", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODCREST", 
+        "BEGIN_LOCATION" : "DON PATRICIO", 
+        "END_LOCATION" : "DIVISION", 
+        "PCI_SCORE" : 75
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EVERHART RD.", 
+        "BEGIN_LOCATION" : "CLINTON", 
+        "END_LOCATION" : "JUNIOR TERRACE", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "EVERHART RD.", 
+        "BEGIN_LOCATION" : "ESTATE", 
+        "END_LOCATION" : "CLINTON", 
+        "PCI_SCORE" : 70
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "LEXINGTON RD.", 
+        "BEGIN_LOCATION" : "PADRE ISLAND DR", 
+        "END_LOCATION" : "HECHLAR ST.", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MONTDIDIER", 
+        "BEGIN_LOCATION" : "STRASBOURG", 
+        "END_LOCATION" : "OUTREAU", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "MAYO DR.", 
+        "BEGIN_LOCATION" : "EVERHART RD.", 
+        "END_LOCATION" : "LIMERICK", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PARKGREEN", 
+        "BEGIN_LOCATION" : "CANADIAN DR", 
+        "END_LOCATION" : "WEST MOUNT DR", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "PARKGREEN", 
+        "BEGIN_LOCATION" : "CANADIAN DR", 
+        "END_LOCATION" : "WEST MOUNT DR", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "RED START", 
+        "BEGIN_LOCATION" : "BLUE JAY", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 56
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TAHITI", 
+        "BEGIN_LOCATION" : "MEDITERRANEAN", 
+        "END_LOCATION" : "DEAD END N", 
+        "PCI_SCORE" : 57
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "TARAFAYA", 
+        "BEGIN_LOCATION" : "LOVAIN", 
+        "END_LOCATION" : "LOVAIN", 
+        "PCI_SCORE" : 58
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR N", 
+        "BEGIN_LOCATION" : "EAST HEWIT ALLEY", 
+        "END_LOCATION" : "HEWIT DR (N-S)", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR N", 
+        "BEGIN_LOCATION" : "HEWIT PL", 
+        "END_LOCATION" : "EAST HEWIT ALLEY", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR N", 
+        "BEGIN_LOCATION" : "SANTA FE", 
+        "END_LOCATION" : "HEWIT DR (S)", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR N", 
+        "BEGIN_LOCATION" : "HEWIT DR (S)", 
+        "END_LOCATION" : "HEWIT PL", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR", 
+        "BEGIN_LOCATION" : "HEWIT DR (N-S)", 
+        "END_LOCATION" : "OCEAN DR", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HEWIT DR", 
+        "BEGIN_LOCATION" : "HEWIT DR (N-S)", 
+        "END_LOCATION" : "OCEAN DR", 
+        "PCI_SCORE" : 59
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "LEOPARD ST.", 
+        "END_LOCATION" : "LORI DR.", 
+        "PCI_SCORE" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "LEOPARD ST.", 
+        "END_LOCATION" : "LORI DR.", 
+        "PCI_SCORE" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "COLETA CREEK", 
+        "END_LOCATION" : "HONDO CREEK", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "HONDO CREEK", 
+        "END_LOCATION" : "CRIPPLE CREEK", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "LORI DR", 
+        "END_LOCATION" : "CHISPA CREEK", 
+        "PCI_SCORE" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "CHISPA CREEK", 
+        "END_LOCATION" : "COLETA CREEK", 
+        "PCI_SCORE" : 41
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "CRIPPLE CREEK", 
+        "END_LOCATION" : "CALICHE CRK", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "CALICHE CRK", 
+        "END_LOCATION" : "EL GATO CRK CIR", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "WOODLAND CREEK", 
+        "BEGIN_LOCATION" : "EL GATO CRK CIR", 
+        "END_LOCATION" : "DEAD END S", 
+        "PCI_SCORE" : 60
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "HAUBOURDIN", 
+        "BEGIN_LOCATION" : "CHARLERO", 
+        "END_LOCATION" : "DEAD END", 
+        "PCI_SCORE" : 55
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KERN", 
+        "BEGIN_LOCATION" : "THAMES", 
+        "END_LOCATION" : "RHINE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KERN", 
+        "BEGIN_LOCATION" : "THAMES", 
+        "END_LOCATION" : "RHINE", 
+        "PCI_SCORE" : 54
+      }
+    }, 
+    {
+      "attributes" : {
+        "ROAD_NAME" : "KNICKERBOCKER", 
+        "BEGIN_LOCATION" : "NAGLE", 
+        "END_LOCATION" : "LAGUNA SHORE", 
+        "PCI_SCORE" : 56
+      }
+    }
+  ]
+}
