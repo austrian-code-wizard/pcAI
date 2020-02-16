@@ -9,6 +9,7 @@ from keras.callbacks import ModelCheckpoint
 from keras import models,layers,optimizers
 from keras.layers import Dense, Activation, Flatten, Dropout, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D
+from keras.utils.multi_gpu_utils import multi_gpu_model
 
 df= pd.read_csv("./train/train.csv")
 df = df.replace(0,'buildings').replace(1,'forest').replace(2,'glacier').replace(3,'mountain').replace(4,'sea').replace(5,'street')
@@ -72,6 +73,7 @@ model.add(layers.Dense(6, activation='softmax'))
 
 # Show a summary of the model. Check the number of trainable parameters
 model.summary()
+model = multi_gpu_model(model, gpus=4)
 model.compile(loss='categorical_crossentropy', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
 
 STEP_SIZE_TRAIN=train_generator.n//train_generator.batch_size
