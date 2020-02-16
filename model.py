@@ -10,7 +10,7 @@ from keras.layers import Dense, Activation, Flatten, Dropout, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D
 
 df= pd.read_csv("./train/train.csv")
-df = df.replace(0, -1).replace(1, -.6).replace(2, -0.2).replace(3, 0.2).replace(4, 0.6).replace(5, 1)
+df = df.replace(0,'buildings').replace(1,'forest').replace(2,'glacier').replace(3,'mountain').replace(4,'sea').replace(5,'street')
 
 datagen = ImageDataGenerator(rescale=1./255,
                            shear_range = 0.2,
@@ -26,7 +26,7 @@ train_generator = datagen.flow_from_dataframe(dataframe=df,
                         batch_size=100,
                         seed=42,
                         shuffle=True,
-                        class_mode="raw",
+                        class_mode="categorical",
                         target_size=(150,150))
 valid_generator = datagen.flow_from_dataframe(dataframe=df,
                         directory="./train/train",
@@ -35,7 +35,7 @@ valid_generator = datagen.flow_from_dataframe(dataframe=df,
                         subset="validation", batch_size=10,
                         seed=42,
                         shuffle=True,
-                        class_mode="raw",
+                        class_mode="categorical",
                         target_size=(150,150))
 
 from keras.applications.resnet50 import ResNet50
@@ -67,11 +67,11 @@ model.add(MaxPooling2D(pool_size=(1, 1)))
 model.add(layers.Flatten())
 model.add(layers.Dense(1024, activation='relu'))
 model.add(layers.Dropout(0.5))
-model.add(layers.Dense(1, activation='softmax'))
+model.add(layers.Dense(6, activation='softmax'))
 
 # Show a summary of the model. Check the number of trainable parameters
 model.summary()
-model.compile(loss='mean_squared_error', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
+model.compile(loss='categorical_crossentropy', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
 
 STEP_SIZE_TRAIN=train_generator.n//train_generator.batch_size
 STEP_SIZE_VALID=valid_generator.n//valid_generator.batch_size
