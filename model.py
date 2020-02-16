@@ -5,6 +5,7 @@ from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
 from keras.preprocessing.image import ImageDataGenerator
 import os,shutil
+from keras.callbacks import ModelCheckpoint
 from keras import models,layers,optimizers
 from keras.layers import Dense, Activation, Flatten, Dropout, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D
@@ -75,11 +76,13 @@ model.compile(loss='categorical_crossentropy', optimizer=optimizers.RMSprop(lr=1
 
 STEP_SIZE_TRAIN=train_generator.n//train_generator.batch_size
 STEP_SIZE_VALID=valid_generator.n//valid_generator.batch_size
+filepath = "saved-model-{epoch:02d}-{val_acc:.2f}.hdf5"
+callbacks = [ModelCheckpoint(filepath, monitor='val_loss', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1)]
 history =model.fit_generator(generator=train_generator,
                     steps_per_epoch=STEP_SIZE_TRAIN,
                     validation_data=valid_generator,
                     validation_steps=STEP_SIZE_VALID,
-                    epochs=20,verbose=1)
+                    epochs=20,verbose=1, callbacks=[callbacks])
 
 model.save("inception.h5")
 
