@@ -9,7 +9,7 @@ from keras.callbacks import ModelCheckpoint
 from keras import models,layers,optimizers
 from keras.layers import Dense, Activation, Flatten, Dropout, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D
-from keras.utils.multi_gpu_utils import multi_gpu_model
+from keras.utils import multi_gpu_model
 
 df= pd.read_csv("./train/train.csv")
 df = df.replace(0,'buildings').replace(1,'forest').replace(2,'glacier').replace(3,'mountain').replace(4,'sea').replace(5,'street')
