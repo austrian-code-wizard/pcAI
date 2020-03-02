@@ -15,8 +15,8 @@ from keras.layers import Conv2D, MaxPooling2D
 #71-85: good
 #86-100: excellent
 
-df= pd.read_csv("../pcAI-Dataset/labels.csv")
-bins = [0, 49, 70, 85, 100]
+df= pd.read_csv("../pcAI_Dataset/labels.csv")
+bins = [-1, 49, 70, 85, 101]
 labels = ["poor", "at risk", "good", "excellent"]
 df["label"] = pd.cut(df['label'], bins=bins, labels=labels)
 
@@ -27,7 +27,7 @@ datagen = ImageDataGenerator(rescale=1./255,
                            preprocessing_function= preprocess_input,
                            validation_split=0.25)
 train_generator = datagen.flow_from_dataframe(dataframe=df,
-                        directory="../pcAI-Dataset/Images",
+                        directory="../pcAI_Dataset/Images",
                         x_col="image_name",
                         y_col="label",
                         subset="training",
@@ -35,28 +35,28 @@ train_generator = datagen.flow_from_dataframe(dataframe=df,
                         seed=42,
                         shuffle=True,
                         class_mode="categorical",
-                        target_size=(512,512))
+                        target_size=(128,128))
 valid_generator = datagen.flow_from_dataframe(dataframe=df,
-                        directory="../pcAI-Dataset/Images",
+                        directory="../pcAI_Dataset/Images",
                         x_col="image_name",
                         y_col="label",
                         subset="validation", batch_size=10,
                         seed=42,
                         shuffle=True,
                         class_mode="categorical",
-                        target_size=(512,512))
+                        target_size=(128,128))
 
 from keras.applications.resnet50 import ResNet50
 
 res_conv = ResNet50(include_top=False,
                     weights='imagenet',
                     input_tensor=None,
-                    input_shape=(512, 512, 3),
+                    input_shape=(128, 128, 3),
                     pooling=None, classes=1000)
 model = models.Sequential()
 model.add(res_conv)
 
-model.add(Conv2D(32, 3, 3, border_mode='same', input_shape=(512, 512, 3), activation='relu'))
+model.add(Conv2D(32, 3, 3, border_mode='same', input_shape=(128, 128, 3), activation='relu'))
 model.add(Conv2D(32, 3, 3, border_mode='same', activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
